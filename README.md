@@ -1,6 +1,6 @@
 # Exploratory Data Analysis (EDA Code)
 
-> Repo for saving analytics useful.
+> Repo for saving useful analytics code.
 
 ## How to use it ?
 
