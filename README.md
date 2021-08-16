@@ -6,8 +6,8 @@
 
 ### Requirements 
 
-* python >= 3.7
-* pip
+* `python >= 3.7`
+* `pip >= 21.1.3`
 
 # Step by step
 
