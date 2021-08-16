@@ -24,3 +24,5 @@ import src
 ```
 
 3. Use it wisely 🦉
+
+![image](https://user-images.githubusercontent.com/43999445/129574714-89f7c2e7-0799-4f86-a1fe-a2bbce92decd.png)
