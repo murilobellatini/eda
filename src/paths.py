@@ -6,5 +6,5 @@ TITANIC_DICT_URL  = 'https://raw.githubusercontent.com/murilobellatini/datasets/
 # gdrive urls
 GDRIVE_PATH = '/content/gdrive'
 BDD_PATH = f'{GDRIVE_PATH}/MyDrive/BigDataDoctor'
-RAW_DATA_PATH_TITANIC = f'{BDD_PATH}/data/raw'
-PROCESSED_DATA_PATH_TITANIC = f'{BDD_PATH}/data/processed'
+RAW_DATA_PATH_TITANIC = f'{BDD_PATH}/titanic/data/raw'
+PROCESSED_DATA_PATH_TITANIC = f'{BDD_PATH}/titanic/data/processed'
