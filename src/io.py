@@ -21,6 +21,11 @@ def load_txt_from_url(url:str):
 
 
 def mount_gdrive(path=GDRIVE_PATH):
+    """
+    Monta GDrive.
+    
+    `Nota`: Este método precisa de autorização de acesso ao Googles
+    """
     drive.mount(path)
 
 
