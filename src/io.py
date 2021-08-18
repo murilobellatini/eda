@@ -37,4 +37,3 @@ def export_to_gdrive(df:pd.DataFrame, fname:str, gdrive_folder:str):
     drive.mount(GDRIVE_PATH)
     assert GDRIVE_PATH in gdrive_folder, f"`gdrive_folder` not within `GDRIVE_PATH` ({GDRIVE_PATH}). Export data within Google Drive."
     export_df(df, fname, gdrive_folder)
-
