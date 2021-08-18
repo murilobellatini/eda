@@ -22,9 +22,9 @@ def load_txt_from_url(url:str):
 
 def mount_gdrive(path=GDRIVE_PATH):
     """
-    Monta GDrive.
-    
-    `Nota`: Este método precisa de autorização de acesso ao Googles
+    Monta drive do Google Drive no colab.
+
+    `Nota`: Este método precisa de autorização de acesso ao Google
     """
     drive.mount(path)
 
