@@ -20,6 +20,10 @@ def load_txt_from_url(url:str):
   return requests.get(url).text
 
 
+def mount_gdrive(path=GDRIVE_PATH):
+    drive.mount(path)
+
+
 def export_df(df:pd.DataFrame, fname:str, outdir:str):
     """
     Exporta DataFrame para diretório
@@ -34,6 +38,6 @@ def export_to_gdrive(df:pd.DataFrame, fname:str, gdrive_folder:str):
     """
     Persiste DataFrame em Google Drive
     """
-    drive.mount(GDRIVE_PATH)
+    mount_gdrive()
     assert GDRIVE_PATH in gdrive_folder, f"`gdrive_folder` not within `GDRIVE_PATH` ({GDRIVE_PATH}). Export data within Google Drive."
     export_df(df, fname, gdrive_folder)
