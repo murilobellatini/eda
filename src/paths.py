@@ -1,4 +1,10 @@
 # remote urls
-TEST_URL  = 'https://raw.githubusercontent.com/murilobellatini/datasets/master/titanic/test.csv'
-TRAIN_URL = 'https://raw.githubusercontent.com/murilobellatini/datasets/master/titanic/train.csv'
-DICT_URL  = 'https://raw.githubusercontent.com/murilobellatini/datasets/master/titanic/data_dictionary.txt'
+TITANIC_TEST_URL  = 'https://raw.githubusercontent.com/murilobellatini/datasets/master/titanic/test.csv'
+TITANIC_TRAIN_URL = 'https://raw.githubusercontent.com/murilobellatini/datasets/master/titanic/train.csv'
+TITANIC_DICT_URL  = 'https://raw.githubusercontent.com/murilobellatini/datasets/master/titanic/data_dictionary.txt'
+
+# gdrive urls
+GDRIVE_PATH = '/content/gdrive'
+BDD_PATH = f'{GDRIVE_PATH}/MyDrive/BigDataDoctor'
+RAW_DATA_PATH_TITANIC = f'{BDD_PATH}/data/raw'
+PROCESSED_DATA_PATH_TITANIC = f'{BDD_PATH}/data/processed'
